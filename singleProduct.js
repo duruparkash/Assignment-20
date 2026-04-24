@@ -1,17 +1,17 @@
 async function getSingleProduct() {
-  const urlParams = new URLSearchParams(window.location.search);
-  const productId = urlParams.get("id");
+  let urlParams = new URLSearchParams(window.location.search);
+  let productId = urlParams.get("id");
 
-  const response = await fetch(`https://dummyjson.com/products/${productId}`);
-  const product = await response.json();
+  let response = await fetch(`https://dummyjson.com/products/${productId}`);
+  let product = await response.json();
 
   renderProductDetail(product);
 }
 
 function renderProductDetail(product) {
-  const container = document.getElementById("product-detail-container");
+  let container = document.getElementById("product-detail-container");
 
-  const { title, description, price, thumbnail, category, rating, stock } =
+  let { title, description, price, thumbnail, category, rating, stock } =
     product;
 
   container.innerHTML = `
