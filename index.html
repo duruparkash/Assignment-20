@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OLX Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="head">
+      <div class="menu">
+        <div class="left">
+          <div class="olx-logo">
+            <img
+              src="images/olx-logo_svgstack_com_202511088991.svg"
+              alt="OLX logo"
+            />
+          </div>
+          <div class="motor">
+            <img
+              src="images/iconMotors.6bf280165e43e55b173d0a53551e2bfb.png"
+              alt="OLX Motors"
+              height="25px"
+              width="50px"
+            />
+            <p><b>Motors</b></p>
+          </div>
+          <div class="property">
+            <img
+              src="images/iconProperty.d09c6d2e3621f900c17c9e8330a1a37b.png"
+              alt="OLX Property Icon"
+              height="25px"
+              width="30px"
+            />
+            <p><b>Property</b></p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="login">
+            <p><b>Login</b></p>
+          </div>
+          <div class="sell-button">
+            <img
+              src="images/Screenshot 2025-11-08 223859.png"
+              alt="Sell Button"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main">
+        <div class="map-search-bar">
+          <div class="map-search-border">
+            <img
+              src="images/location-pin-symbol_svgstack_com_22401762628822.png"
+              alt="Location Pin"
+              class="map"
+            />
+            <select>
+              <option value="pakistan">Pakistan</option>
+              <option value="karachi">Karachi</option>
+              <option value="lahore">Lahore</option>
+            </select>
+          </div>
+        </div>
+        <div class="search-join">
+          <div class="main-search-bar">
+            <input
+              type="text"
+              placeholder="Find Cars, Mobile Phones and more..."
+            />
+          </div>
+          <div class="search-button">
+            <img
+              src="images/outline-magnify-free-vector_svgstack_com_202511082044.png"
+              alt="Search Magnifying Glass"
+              class="search-logo"
+            />
+            <p><b>Search</b></p>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="categories-bar-full">
+        <div class="categories-wrapper">
+          <a href="#" class="all-categories"><b>All Categories ▼</b></a>
+          <a href="#">Mobile Phones</a>
+          <a href="#">Cars</a>
+          <a href="#">Motorcycles</a>
+          <a href="#">Houses</a>
+          <a href="#">Video-Audios</a>
+          <a href="#">Tablets</a>
+          <a href="#">Land & Plots</a>
+        </div>
+      </div>
+
+      <div class="pic-1">
+        <img
+          src="images/Screenshot 2025-11-09 231208.png"
+          alt="Icon Description"
+        />
+      </div>
+
+      <div class="product-menu">
+        <div class="mobile-item">
+          <img
+            src="images/mobiles.73f961c6ad58605c032eb7c2cf12aeaa.png"
+            alt="Mobiles Icon"
+          />
+          <p class="mobiles-pic"><b>Mobiles</b></p>
+        </div>
+        <div class="mobile-item">
+          <img
+            src="images/vehicles.354a5ebfb7f21e87991a277dd4b40f4b.png"
+            alt="Vehicles Icon"
+          />
+          <p class="mobiles-pic"><b>Vehicles</b></p>
+        </div>
+        <div class="mobile-item">
+          <img
+            src="images/property-for-sale.69b01e8dafc182fa3bd469d0ed4fc801.png"
+            alt="Property For Sale Icon"
+          />
+          <p class="mobiles-pic"><b>Property For Sale</b></p>
+        </div>
+        <div class="mobile-item">
+          <img
+            src="images/property-for-rent.49f99cc528b9b88da4f33fbe1f0b3346.png"
+            alt="Property For Rent Icon"
+          />
+          <p class="mobiles-pic"><b>Property For Rent</b></p>
+        </div>
+        <div class="mobile-item">
+          <img
+            src="images/electronics-home-appliances.0a30101e6fd7d9ccc8cd6b85b9b44cee.png"
+            alt="Electronics & Home Appliances Icon"
+          />
+          <p class="mobiles-pic"><b>Electronics</b></p>
+        </div>
+        <div class="mobile-item">
+          <img
+            src="images/bikes.0a5064ae987f3bd72801b7bc2c3b6e02.png"
+            alt="Bikes Category Icon"
+          />
+          <p class="mobiles-pic"><b>Bikes</b></p>
+        </div>
+        <div class="mobile-item">
+          <img
+            src="images/business-industrial-agriculture.2ec28979a1bde0183c777a0ce51b37c6.png"
+            alt="Industrial Icon"
+          />
+          <p class="mobiles-pic"><b>Business</b></p>
+        </div>
+        <div class="mobile-item">
+          <img
+            src="images/services.23d8eb1535f319324813848887961a59.png"
+            alt="Services Icon"
+          />
+          <p class="mobiles-pic"><b>Services</b></p>
+        </div>
+        <div class="mobile-item">
+          <img
+            src="images/jobs.dc882b8ff65e94850cc12f5abd605420.png"
+            alt="Jobs Icon"
+          />
+          <p class="mobiles-pic"><b>Jobs</b></p>
+        </div>
+      </div>
+
+      <div class="mobiles-phones">
+        <h2>Products</h2>
+        <p><b>View More</b></p>
+      </div>
+
+      <div class="products" id="products-container"></div>
+
+      <footer>
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>Popular Categories</h3>
+            <ul>
+              <li><a href="#">Cars</a></li>
+              <li><a href="#">Flats for rent</a></li>
+              <li><a href="#">Mobile Phones</a></li>
+              <li><a href="#">Jobs</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Trending Searches</h3>
+            <ul>
+              <li><a href="#">Bikes</a></li>
+              <li><a href="#">Watches</a></li>
+              <li><a href="#">Books</a></li>
+              <li><a href="#">Dogs</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>About Us</h3>
+            <ul>
+              <li><a href="#">OLX Blog</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">OLX for Businesses</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>OLX</h3>
+            <ul>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Sitemap</a></li>
+              <li><a href="#">Terms of use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-column follow-us">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <a href="#" class="icon-link"
+                ><img src="images/twitter-svgrepo-com.svg" alt="Twitter"
+              /></a>
+              <a href="#" class="icon-link"
+                ><img src="images/facebook-svgrepo-com.svg" alt="Facebook"
+              /></a>
+              <a href="#" class="icon-link"
+                ><img src="images/youtube-svgrepo-com.svg" alt="YouTube"
+              /></a>
+              <a href="#" class="icon-link"
+                ><img src="images/instagram-svgrepo-com.svg" alt="Instagram"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

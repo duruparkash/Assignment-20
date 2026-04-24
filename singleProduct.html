@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details - OLX Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="head">
+      <div class="menu">
+        <div class="left">
+          <div class="olx-logo">
+            <img
+              src="images/olx-logo_svgstack_com_202511088991.svg"
+              alt="OLX logo"
+            />
+          </div>
+          <div class="motor">
+            <img
+              src="images/iconMotors.6bf280165e43e55b173d0a53551e2bfb.png"
+              alt="OLX Motors"
+              height="25px"
+              width="50px"
+            />
+            <p><b>Motors</b></p>
+          </div>
+          <div class="property">
+            <img
+              src="images/iconProperty.d09c6d2e3621f900c17c9e8330a1a37b.png"
+              alt="OLX Property Icon"
+              height="25px"
+              width="30px"
+            />
+            <p><b>Property</b></p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="login">
+            <p><b>Login</b></p>
+          </div>
+          <div class="sell-button">
+            <img
+              src="images/Screenshot 2025-11-08 223859.png"
+              alt="Sell Button"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main">
+        <div class="map-search-bar">
+          <div class="map-search-border">
+            <img
+              src="images/location-pin-symbol_svgstack_com_22401762628822.png"
+              alt="Location Pin"
+              class="map"
+            />
+            <select>
+              <option value="pakistan">Pakistan</option>
+              <option value="karachi">Karachi</option>
+              <option value="lahore">Lahore</option>
+            </select>
+          </div>
+        </div>
+        <div class="search-join">
+          <div class="main-search-bar">
+            <input
+              type="text"
+              placeholder="Find Cars, Mobile Phones and more..."
+            />
+          </div>
+          <div class="search-button">
+            <img
+              src="images/outline-magnify-free-vector_svgstack_com_202511082044.png"
+              alt="Search logo"
+              class="search-logo"
+            />
+            <p><b>Search</b></p>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="categories-bar-full">
+        <div class="categories-wrapper">
+          <a href="#" class="all-categories"><b>All Categories ▼</b></a>
+          <a href="#">Mobile Phones</a>
+          <a href="#">Cars</a>
+          <a href="#">Motorcycles</a>
+          <a href="#">Houses</a>
+          <a href="#">Video-Audios</a>
+          <a href="#">Tablets</a>
+          <a href="#">Land & Plots</a>
+        </div>
+      </div>
+
+      <div id="product-detail-container" style="padding: 20px">
+        <p>Loading product details...</p>
+      </div>
+    </main>
+
+    <script src="singleProduct.js"></script>
+  </body>
+</html>
