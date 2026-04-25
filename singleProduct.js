@@ -16,7 +16,7 @@ function renderProductDetail(product) {
 
   container.innerHTML = `
         <div class="detail-wrapper">
-            <button onclick="window.location.href = 'index.html'">← Back to Products</button>
+            
             <div class="detail-content">
                 <img src="${thumbnail}" alt="${title}" class="detail-img">
                 <div class="detail-info">
